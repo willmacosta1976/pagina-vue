@@ -1,7 +1,13 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/reserva">Reserva</router-link> |
+     <router-link to="/resumen">Código Reserva</router-link> |
+     <router-link to="/galeria">Galeria</router-link> |
+     <router-link to="/tarifa">Tarifas</router-link>  |
+     <router-link to="/consulta">Consulta</router-link> |
+     <router-link to="/administración">Administración</router-link> 
+    
   </div>
   <router-view/>
 </template>
@@ -13,18 +19,23 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #E2ECE9; 
 }
 
 #nav {
-  padding: 30px;
+  padding: 10px;
+  background-color:#aabce6;
+
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  color:white;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  /* color: #42b983; */
+  color:black
 }
 </style>
